@@ -19,7 +19,7 @@
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding contenedor_sidebar" style="z-index:3;width:300px;font-weight:bold; background-color: #e6c09b;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-64"><b>Parana<br>Tiger</b></h3>
@@ -48,9 +48,9 @@
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>Software Design</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Sitios web personalizados.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h1 class="w3-jumbo"><b class="titulo_principal">Software Design</b></h1>
+    <h1 class="w3-xxxlarge"><b class="subtitulos">Sitios web personalizados</b></h1>
+    <hr class="w3-round linea_debajo_subtitulos">
   </div>
   
   <!-- Photo grid (modal) -->
@@ -79,8 +79,8 @@
 
   <!-- Services -->
   <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Servicios.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h1 class="w3-xxxlarge subtitulos"><b>Servicios.</b></h1>
+    <hr class="w3-round linea_debajo_subtitulos">
     <p>Desarrollamos software a medida con los profesionales mas capacitados en el area</p>
     <p>Si lo que buscas es emprender en grande, aprovechar las ventajas tecnologicas actuales para 
         potenciar su negocio o su proyecto, dar a conocer su profesion, sus obras de arte, contar acerca de tus ultimas
@@ -90,8 +90,8 @@
   
   <!-- Designers -->
   <div class="w3-container" id="designers" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>El Equipo.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h1 class="w3-xxxlarge subtitulos"><b>El Equipo.</b></h1>
+    <hr class="w3-round linea_debajo_subtitulos">
     <p>Eficiencia y flexibilidad</p>
     <p>Un equipo de trabajo con fuertes conocimientos en el area del desarrollo web capaces de desarrollar Sitios
         Web autoadministrables y Aplicaciones utilizando las ultimas tecnologias.
@@ -135,8 +135,8 @@
 
   <!-- Packages / Pricing Tables -->
   <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Paquetes.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h1 class="w3-xxxlarge subtitulos"><b>Paquetes.</b></h1>
+    <hr class="w3-round linea_debajo_subtitulos">
     <p>Estos son los sitios web mas utilizados alrededor del mundo</p>
   </div>
 
@@ -144,14 +144,14 @@
     <div class="w3-half w3-margin-bottom">
       <ul class="w3-ul w3-light-grey w3-center">
         <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
+        <li class="w3-padding-16">Dominio web a eleccion</li>
+        <li class="w3-padding-16">10 hours support</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">20% furniture discount</li>
+        <li class="w3-padding-16">Good deals</li>
         <li class="w3-padding-16">
           <h2>$ 199</h2>
-          <span class="w3-opacity"></span>
+          <span class="w3-opacity">per room</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
@@ -161,18 +161,18 @@
         
     <div class="w3-half">
       <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
+        <li class="w3-xlarge w3-padding-32" style="background-color: #a96e5b;">Pro</li>
+        <li class="w3-padding-16">Floorplanning</li>
+        <li class="w3-padding-16">50 hours support</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">50% furniture discount</li>
+        <li class="w3-padding-16">GREAT deals</li>
         <li class="w3-padding-16">
           <h2>$ 249</h2>
-          <span class="w3-opacity"></span>
+          <span class="w3-opacity">per room</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
+          <button class="w3-button w3-padding-large w3-hover-black"  style="background-color: #a96e5b;">Sign Up</button>
         </li>
       </ul>
     </div>
@@ -180,26 +180,11 @@
   
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Contacto.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h1 class="w3-xxxlarge subtitulos"><b>Contacto.</b></h1>
+    <hr class="w3-round linea_debajo_subtitulos">
     <p>Animate a consultarnos de forma gratuita.</p>
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
-        
-       <p>
-        Hombre <input type="radio" name="sexo" id="hombre">
-       </p> 
-      <p>
-           Mujer <input type="radio" name="sexo" id ="mujer">
-        </p> 
-        <!-- <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br> -->
-
-
-
-
         <label>Nombre</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
       </div>
@@ -211,7 +196,7 @@
         <label>Mensaje</label>
         <input class="w3-input w3-border" type="text" name="Message" required>
       </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-margin-bottom"  style="background-color: #a96e5b;">Send Message</button>
     </form>  
   </div>
 
@@ -219,7 +204,7 @@
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"></a></p></div>
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
 
 <script>
 // Script to open and close sidebar

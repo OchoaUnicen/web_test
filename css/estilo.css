@@ -1,8 +1,37 @@
  
 
  
- 
- 
+.titulo_principal {
+
+    color: #034f84;
+
+}
+
+
+.subtitulos {
+
+    color: #a96e5b;
+
+
+}
+
+
+.contenedor_sidebar {
+
+
+    color:#275a99;
+    
+
+
+
+}
+
+.linea_debajo_subtitulos {
+
+    
+    width: 50px;
+    border: 5px solid #a96e5b;
+}
  
  
  
