@@ -37,7 +37,7 @@
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Parana Tiger</span>
+  <span class="titulo_empresa_nav_responsive_mobile">Parana Tiger</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -183,20 +183,27 @@
     <h1 class="w3-xxxlarge subtitulos"><b>Contacto.</b></h1>
     <hr class="w3-round linea_debajo_subtitulos">
     <p>Animate a consultarnos de forma gratuita.</p>
-    <form action="/action_page.php" target="_blank">
+    <form action="/action_page.php" target="_blank" >
+      
+
+      <div class="w3-section">
+        <label>Sexo</label>
+        <p>Hombre <input type="radio" name="sexo" value="hombre"> Mujer <input type="radio" name="sexo" value="mujer"></p>
+        </div>
+
       <div class="w3-section">
         <label>Nombre</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
+        <input id="input_nombre" class="w3-input w3-border" type="text" name="Name" required>
       </div>
       <div class="w3-section">
         <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
+        <input id="input_email" class="w3-input w3-border" type="email" name="Email" required>
       </div>
       <div class="w3-section">
         <label>Mensaje</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
+        <input id="input_mensaje" class="w3-input w3-border" type="text" name="Message" required>
       </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-margin-bottom"  style="background-color: #a96e5b;">Send Message</button>
+      <button type="submit" id="boton_enviar" class="w3-button w3-block w3-padding-large w3-margin-bottom"  style="background-color: #a96e5b;">Enviar Consulta</button>
     </form>  
   </div>
 
@@ -227,5 +234,7 @@ function onClick(element) {
 }
 </script>
 
+
+<script type="text/javascript" src="js/send_data.js"></script>
 </body>
 </html>
